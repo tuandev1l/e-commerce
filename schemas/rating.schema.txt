@@ -1,0 +1,27 @@
+{
+  "id": string,
+  "title": string,
+  "content": string,
+  "thank_count": 0,
+  "customer_id": 1423769,
+  "comment_count": 0,
+  "rating": 5,
+  "images": RatingImage[],
+  "created_at": number,
+  "created_by": Customer,
+  "product_attributes": string[],
+  "is_photo": boolean,
+  "product_id": 146957711,
+  "timeline": {
+    "review_created_date": string,
+    "delivery_date": string,
+    "current_date": date,
+    "content": string,
+    "explain": string
+  },
+  "vote_attributes": {
+    "agree": [],
+    "disagree": []
+  },
+  "delivery_rating": []
+}

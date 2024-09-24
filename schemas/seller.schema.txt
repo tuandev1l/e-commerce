@@ -1,0 +1,8 @@
+{
+  "id": number,
+  "name": string,
+  "link": string,
+  "logo": string,
+  "price": number,
+  "product_id": string,
+}

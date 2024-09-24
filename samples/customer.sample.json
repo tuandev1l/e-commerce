@@ -1,0 +1,31 @@
+{
+  "birthday": null,
+  "country": null,
+  "account_type": "phone",
+  "is_phone_verified": true,
+  "unread_notification_count": 0,
+  "gender": null,
+  "is_email_verified": false,
+  "real_name": null,
+  "id": 29175785,
+  "email": "tuanprogrammer001@gmail.com",
+  "has_password": false,
+  "is_new": true,
+  "avatar_url": null,
+  "nationality": null,
+  "active_orders": 0,
+  "name": "Tr\u1ecbnh Minh Tu\u1ea5n  BDCCN",
+  "phone_number": "0779245720",
+  "created_date": 1686284180,
+  "ekyc_level": 0,
+  "cart_item_count": 0,
+  "username": null,
+  "address": {
+    "street": "C/c 86 Tản Đà, phòng 0711",
+    "ward": "Phường 11",
+    "district": "Quận 5",
+    "region": "Hồ Chí Minh",
+    "country": "Việt Nam",
+    "country_id": "VN"
+  }
+}

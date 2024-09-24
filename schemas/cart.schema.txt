@@ -1,0 +1,10 @@
+{
+  "paging_info": {
+    total_pages: number;
+    total_items: number;
+    current_page: number;
+    page_size: number;
+  },
+  "customer_id": string,
+  "items": ProductItem[]
+}

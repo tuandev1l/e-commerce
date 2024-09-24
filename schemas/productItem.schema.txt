@@ -1,0 +1,18 @@
+{
+  qty: number;
+  product_name: string;
+  product_id: number;
+  final_price: number;
+  seller_id: number;
+  list_price: number;
+  attributeset_group_name: string;
+  product_url: string;
+  url_key: string;
+  discount_amount: number;
+  price: number;
+  subtotal: number;
+  variant_text: string;
+  product_type: string;
+  original_price: number;
+  thumbnail_url: string;
+}

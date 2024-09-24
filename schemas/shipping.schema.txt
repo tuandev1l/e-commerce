@@ -1,0 +1,9 @@
+{
+  "shipping": {
+    partner_id: string;
+    partner_name: string;
+    tracking_code?: string;
+    status: string;
+    "plan": ShippingPlan
+  }
+}

@@ -1,0 +1,4 @@
+INVENTORY_STATUS = ["available","out-of-order"]
+ACCOUNT_TYPE = ["phone","email","other"]
+GENDER = ["male","female","other"]
+ORDER_STATUS=["complete","incomplete","shipping","prepared"]

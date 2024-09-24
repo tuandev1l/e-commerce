@@ -1,0 +1,31 @@
+{
+  "birthday"?: Date,
+  "country": string,
+  "account_type": ACCOUNT_TYPE,
+  "is_phone_verified": boolean,
+  "gender": GENDER,
+  "is_email_verified": false,
+  "real_name"?: string,
+  "reward_point": 0,
+  "id": 29175785,
+  "email": string,
+  "has_password": false,
+  "is_new": boolean,
+  "avatar_url"?: string,
+  "nationality"?: string,
+  "active_orders": number,
+  "name": string,
+  "phone_number": string,
+  "created_date": string,
+  "ekyc_level": number,
+  "cart_item_count": number,
+  "username"?: string,
+  "address": {
+    "street": string,
+    "ward": string,
+    "district": string,
+    "region": string,
+    "country": string,
+    "country_id": string"
+  }
+}

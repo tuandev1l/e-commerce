@@ -1,0 +1,22 @@
+{
+  id: string;
+  status: ORDER_STATUS;
+  created_at: Date;
+  updated_at: Date;
+  "invoice": {
+    items_count: number;
+    items_quantity: number;
+    total: number;
+    collectible_amount: number;
+    discount_amount: number;
+    shipping_amount_after_discount: number;
+    shipping_discount_amount: number;
+    handling_fee: number;
+    other_fee: number;
+    purchased_at: string;
+  },
+  "items": ProductItem[],
+  "shipping": Shipping,
+  "payment": Payment,
+  "status_histories": OrderStatus[]
+}

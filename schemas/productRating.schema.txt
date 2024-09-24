@@ -1,0 +1,39 @@
+{
+  "stars": {
+    "1": {
+      "count": number,
+      "percent": number
+    },
+    "2": {
+      "count": number,
+      "percent": number
+    },
+    "3": {
+      "count": number,
+      "percent": number
+    },
+    "4": {
+      "count": number,
+      "percent": number
+    },
+    "5": {
+      "count": number,
+      "percent": number
+    }
+  },
+  "rating_average": number,
+  "reviews_count": number,
+  "review_photo": {
+    "total": number,
+    "total_photo": number
+  },
+  "data": Rating[],
+  "paging": {
+    "total": 35,
+    "per_page": 5,
+    "current_page": 1,
+    "last_page": 7,
+    "from": 1,
+    "to": 5
+  },
+}

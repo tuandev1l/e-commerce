@@ -1,0 +1,8 @@
+{
+  "payment": {
+    "method": "cod",
+    "is_prepaid": false,
+    "status": "success",
+    "description": "Thanh toán tiền mặt khi nhận hàng"
+  }
+}

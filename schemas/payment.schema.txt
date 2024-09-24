@@ -1,0 +1,6 @@
+{
+  method: string;
+  is_prepaid: boolean;
+  status: string;
+  description: string;
+}

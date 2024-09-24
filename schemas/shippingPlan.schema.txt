@@ -1,0 +1,7 @@
+{
+  id: number;
+  name: string;
+  is_free_shipping: boolean;
+  promised_delivery_date: string;
+  description: string;
+}

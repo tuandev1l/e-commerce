@@ -1,0 +1,135 @@
+{
+  "id": number,
+  "name": string,
+  "short_description": string,
+  "price": number,
+  "list_price": number,
+  "original_price": number,
+  "badges": ProductBadge[],
+  "discount": number,
+  "discount_rate": number,
+  "rating_average": number,
+  "review_count": number,
+  "review_text": string,
+  "favourite_count": number,
+  "thumbnail_url": string,
+  "inventory_status": INVENTORY_STATUS,
+  "seller": Seller,
+  "day_ago_created": number,
+  "all_time_quantity_sold": number,
+  "meta_title": string,
+  "meta_description": string,
+  "meta_keywords": string,
+  "description": string,
+  "images": ProductImage[],
+  "brand": Brand,
+  "specifications": [
+    {
+      "name": "Content",
+      "attributes": [
+        {
+          "code": "brand",
+          "name": "Thương hiệu",
+          "value": string
+        },
+        {
+          "code": "brand_country",
+          "name": "Xuất xứ thương hiệu",
+          "value": string
+        },
+        {
+          "code": "origin",
+          "name": "Xuất xứ (Made in)",
+          "value": string
+        }
+      ]
+    },
+    {
+      "name": "Operation",
+      "attributes": [
+        {
+          "code": "is_warranty_applied",
+          "name": "Sản phẩm có được bảo hành không?",
+          "value": string
+        }
+      ]
+    }
+  ],
+  "gift_item_title": string,
+  "configurable_options": [
+    {
+      "code": "option1",
+      "name": "Màu",
+      "position": 0,
+      "show_preview_image": true,
+      "values": [
+        {
+          "label": string
+        }
+      ]
+    },
+    {
+      "code": "option2",
+      "name": "Kích cỡ",
+      "position": 0,
+      "show_preview_image": false,
+      "values": [
+        {
+          "label": string
+        },
+      ]
+    }
+  ],
+  "highlight": {
+    "items": string[],
+    "title": string
+  },
+  "stock_item": {
+    "max_sale_qty": number,
+    "min_sale_qty": number,
+    "preorder_date"?: string,
+    "qty": number
+  },
+  "quantity_sold": {
+    "text": string,
+    "value": number
+  },
+  "categories": Categories,
+  "video_url": string,
+  "is_seller_in_chat_whitelist": boolean = true,
+  "warranty_info": [
+    {
+      "name": "Hướng dẫn bảo hành",
+      "value": "Xem chi tiết",
+      "url": string
+    }
+  ],
+  "return_and_exchange_policy": string,
+  "benefits": [
+    {
+      "icon": "https://salt.tikicdn.com/ts/upload/c5/37/ee/76c708d43e377343e82baee8a0340297.png",
+      "text": "Được đồng kiểm khi nhận hàng"
+    },
+    {
+      "icon": "https://salt.tikicdn.com/ts/upload/ea/02/b4/b024e431ec433e6c85d4734aaf35bd65.png",
+      "text": "\u003cb\u003eĐược hoàn tiền 200%\u003c/b\u003e nếu là hàng giả."
+    },
+    {
+      "icon": "https://salt.tikicdn.com/ts/upload/d8/c7/a5/1cd5bd2f27f9bd74b2c340b8e27c4d82.png",
+      "text": "Đổi trả miễn phí trong 30 ngày. Được đổi ý.",
+      "sub_text": [],
+    }
+  ],
+  "return_policy": {
+    "body": [
+      {
+        "label": "",
+        "content": [
+          "Được đổi ý (sản phẩm phải còn nguyên hộp, tem, phụ kiện, chưa kích hoạt bảo hành, không áp dụng đơn hàng trả góp), hoặc",
+          "Sản phẩm không đúng cam kết (lỗi kỹ thuật, giao sai/thiếu, bể vỡ…)"
+        ]
+      }
+    ],
+    "title": "Đổi trả miễn phí trong 30 ngày"
+  }
+}

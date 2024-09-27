@@ -8,3 +8,9 @@ attribute vote => AI
 "real_name",
 "username"
 ],
+
+Services =>
+Product services
+Seller services
+Customer services
+Rating services
